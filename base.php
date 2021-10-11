@@ -1,5 +1,5 @@
 <?php
-define('RUTA', 'http://localhost:8030/sigespro/');
+define('RUTA', 'http://localhost:8030/comsys/');
 require 'config/session_handler.php';
 require 'config/medoo.php';
 use Medoo\Medoo;

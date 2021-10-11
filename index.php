@@ -6,12 +6,12 @@ if (isset($_SESSION['usuario'])) {
   $data = $database->count("sys_users",["username" => $_SESSION['usuario']]);
 
   if ($data == '1') {
-    header('Location: '.RUTA.'comsys/panel/user.php');
+    header('Location: '.RUTA.'panel/user.php');
     }
     else {
-    header('Location: '.RUTA.'comsys/panel/login.php');
+    header('Location: '.RUTA.'panel/login.php');
     }
 }else {
-header('Location: '.RUTA.'comsys/panel/login.php');
+header('Location: '.RUTA.'panel/login.php');
 }
  ?>

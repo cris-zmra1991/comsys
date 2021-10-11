@@ -1,5 +1,5 @@
 <?php
-require '../../base.php';
+require '../base.php';
 if (isset($_SESSION['usuario'])) {
   $usuario = $_SESSION['usuario'];
   $data = $database->count("sys_users",["username" => $usuario]);
