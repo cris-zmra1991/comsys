@@ -1,5 +1,5 @@
 <?php
-require '../base.php';
+require 'base.php';
 // comprobar session
 if (isset($_SESSION['usuario'])) {
   // validar los datos por privilegio
