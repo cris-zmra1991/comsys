@@ -27,7 +27,7 @@
             <td><?php echo $solicitudes["firma_cont"] ?></td>
             <td><?php echo $solicitudes["valor"] ?></td>
             <td><?php echo $solicitudes["no_contrato"] ?></td>
-            <td><a class="ui orange button" href="<?php echo "modify.php?name=" . $solicitudes["id_fca"]?>"><i class="edit icon"></i></a></td>
+            <td><a class="ui green button" href="<?php echo "modify.php?name=" . $solicitudes["id_fca"]?>"><i class="edit icon"></i></a></td>
           </tr>
         <?php } ?>
       </tbody>
