@@ -8,6 +8,7 @@
           <th scope="col">Proveedor</th>
           <th scope="col">Objeto del contrato</th>
           <th scope="col">Vigencia</th>
+          <th scope="col">Fecha Aprob.</th>
           <th scope="col">Valor (MN)</th>
           <th scope="col">Número de contrato</th>
           <th scope="col">Detalle</th>
@@ -23,6 +24,7 @@
             <td><?php echo $solicitudes["desc_proveedor"] ?></td>
             <td><?php echo $solicitudes["objeto"] ?></td>
             <td><?php echo $solicitudes["vigencia"]."&nbsp;".$solicitudes["tipo_vigencia"] ?></td>
+            <td><?php echo $solicitudes["firma_cont"] ?></td>
             <td><?php echo $solicitudes["valor"] ?></td>
             <td><?php echo $solicitudes["no_contrato"] ?></td>
             <td><a class="ui orange button" href="<?php echo "modify.php?name=" . $solicitudes["id_fca"]?>"><i class="edit icon"></i></a></td>

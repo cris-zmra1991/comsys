@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       //Comprobar que la contraseña sea correcta
       if ($password == $itempass) {
       $database->update("sys_users",["status" => "1"],["username" => $usuario]);
-      header('Location: '.RUTA.'/comsys/index.php');
+      header('Location: '.RUTA.'index.php');
       }
       else {
         $errores = '<p>Error, revise los datos</p>';
